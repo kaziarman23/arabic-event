@@ -5,8 +5,8 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-    title: "City Event's",
-    description: "City Event's",
+    title: "Araib Event's",
+    description: "Araib Event's",
 };
 
 export default function RootLayout({ children }) {
