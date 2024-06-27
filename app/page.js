@@ -2,7 +2,7 @@ import React from "react";
 import pic from "@/public/images/pic.jpg";
 import picTwo from "@/public/images/picTwo.jpg";
 import Image from "next/image";
-
+import EmblaCarousel from "@/app/components/emblaCarousel";
 function Home() {
     return (
         <>
@@ -23,7 +23,6 @@ function Home() {
                         />
                     </div>
                     <div className="text-center flex justify-center items-center gap-5 flex-col mx-2 my-3">
-                        
                         <h3>
                             Say, O Prophet, He is Allah One and Indivisible.
                             Allah the Sustainer needed by all. He has never had
@@ -44,13 +43,18 @@ function Home() {
                         />
                     </div>
                     <div className="text-center flex justify-center items-center gap-5 flex-col mx-2 my-3">
-                        
                         <h3>
-                        The Prophet (ﷺ) said, Facilitate things to people (concerning religious matters), and do not make it hard for them and give them good tidings and do not make them run away (from Islam).
+                            The Prophet (ﷺ) said, Facilitate things to people
+                            (concerning religious matters), and do not make it
+                            hard for them and give them good tidings and do not
+                            make them run away (from Islam).
                         </h3>
                         <p>Sahih al-Bukhari: 69</p>
                     </div>
                 </div>
+            </div>
+            <div className="w-1/2 h-96 mx-auto my-10">
+                <EmblaCarousel />
             </div>
         </>
     );
