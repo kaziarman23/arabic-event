@@ -3,6 +3,9 @@ import pic from "@/public/images/pic.jpg";
 import picTwo from "@/public/images/picTwo.jpg";
 import Image from "next/image";
 import EmblaCarousel from "@/app/components/emblaCarousel";
+import artical from "@/public/images/artical.jpg"
+
+
 function Home() {
     return (
         <>
@@ -55,6 +58,22 @@ function Home() {
             </div>
             <div className="w-1/2 h-96 mx-auto my-10">
                 <EmblaCarousel />
+            </div>
+            <div className="w-full h-96 my-10 bg-orange-500">
+                <div className="w-1/2 h-full mx-auto flex justify-center items-center flex-col">
+                    <div className="w-full h-full flex justify-between items-center">
+                        <div className="w-1/2 h-48 flex justify-center items-center">
+                            <Image src={artical} alt="Artical Image" placeholder="blur" quality={100} className="w-80 h-44 rounded-xl"/>
+                        </div>
+                        <div className="w-1/2 h-48 text-black flex justify-center items-center flex-col gap-2">
+                            <h1>The Araib Events</h1>
+                            <p className="hover:text-blue-500 cursor-wait">This is what we do...</p>
+                        </div>
+                    </div>
+                    <div className="w-full h-full text-black flex justify-start items-center">
+                        <h1>Welcome to our event management website, where we simplify the process of organizing and promoting your events. Our platform offers a range of tools to help you manage guest lists, ticketing, and RSVPs. With our user-friendly interface, you can easily create and customize event pages, set up registration forms, and track attendance. We also provide marketing solutions to help you reach a wider audience and increase event visibility. Our goal is to ensure your events run smoothly, so you can focus on creating memorable experiences for your guests.</h1>
+                    </div>
+                </div>
             </div>
         </>
     );
