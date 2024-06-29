@@ -11,8 +11,6 @@ import carouselThree from "@/public/images/carouselThree.jpg";
 import carouselFour from "@/public/images/carouselFour.jpg";
 import carouselFive from "@/public/images/carouselFive.jpg";
 
-
-
 function EmblaCarousel() {
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
         Autoplay({ delay: 4000 }),
@@ -29,7 +27,7 @@ function EmblaCarousel() {
     return (
         <div className="embla">
             <div
-                className="embla__viewport mx-auto w-full h-80 border-gray-300 border"
+                className="embla__viewport mx-auto w-full h-auto border-gray-300 border"
                 ref={emblaRef}
             >
                 <div className="embla__container h-full">

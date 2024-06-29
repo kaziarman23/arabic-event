@@ -33,21 +33,21 @@ const eventsData = [
     {
         id: 4,
         img: religious,
-        pageName: "religiousPage",
+        pageName: "religiousEventPage",
         title: "Arabic Religious Events",
         message: "More Details...",
     },
     {
         id: 5,
         img: art,
-        pageName: "artPage",
+        pageName: "artEventPage",
         title: "Arabic Art Exhibitions",
         message: "More Details...",
     },
     {
         id: 6,
         img: business,
-        pageName: "businessPage",
+        pageName: "businessEventPage",
         title: "Arabic Business Events",
         message: "More Details...",
     },
@@ -79,11 +79,11 @@ function Event() {
                 </h4>
             </div>
             <div className="wrapper bg-gray-900 w-full h-auto">
-                <div className="w-full h-24 my-5 flex justify-center items-center hover:text-green-500 text-2xl">
-                    <h1>
+                <div className="w-full h-24 my-5 flex justify-center items-center text-2xl">
+                    <h1 className="hover:text-green-500">
                         Explore Events with{" "}
-                        <span className="text-yellow-700 hover:text-green-500">
-                            The Araib Events
+                        <span className="text-yellow-700">
+                            The Arabic Events
                         </span>
                     </h1>
                 </div>

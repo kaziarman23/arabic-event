@@ -59,17 +59,17 @@ function weddingEventPage() {
                 </div>
                 <div className="my-10">
                     <h1>There are 4 steps of Arabic wedding Events:</h1>
-                    <ol className="flex gap-3 flex-col">
-                        <li>
+                    <ol className="flex gap-3 flex-col mt-3">
+                        <li className="hover:text-blue-600">
                             <Link href="#Mahr">step 1. Magsaba</Link>
                         </li>
-                        <li>
+                        <li className="hover:text-blue-600">
                             <Link href="#Fatiha">step 2. Fatiha</Link>
                         </li>
-                        <li>
+                        <li className="hover:text-blue-600">
                             <Link href="#Nikah">step 3. Aqdun Nikah</Link>
                         </li>
-                        <li>
+                        <li className="hover:text-blue-600">
                             <Link href="#Feast">step 4. Walimat al-Aras</Link>
                         </li>
                     </ol>
@@ -206,14 +206,13 @@ function weddingEventPage() {
                     <div className="flex justify-center items-center flex-col gap-5">
                         <h1>Explore More things with us on the Event.</h1>
                         <div className="flex justify-center items-center gap-3">
-                              <button className="p-2  bg-blue-500 text-white cursor-pointer rounded-xl hover:text-black hover:bg-blue-700">
+                            <button className="p-2  bg-blue-500 text-white cursor-pointer rounded-xl hover:text-black hover:bg-red-600">
                                 <Link href={"/event"}>Previous Page</Link>
-                              </button>
-                              <button className="p-2  bg-blue-500 text-white cursor-pointer rounded-xl hover:text-black hover:bg-blue-700">
+                            </button>
+                            <button className="p-2  bg-blue-500 text-white cursor-pointer rounded-xl hover:text-black hover:bg-green-500">
                                 <Link href={"/contactUs"}>Contact Us</Link>
-                              </button>
+                            </button>
                         </div>
-                        
                     </div>
                 </div>
             </div>
