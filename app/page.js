@@ -3,7 +3,7 @@ import pic from "@/public/images/pic.jpg";
 import picTwo from "@/public/images/picTwo.jpg";
 import Image from "next/image";
 import EmblaCarousel from "@/app/components/emblaCarousel";
-import artical from "@/public/images/artical.jpg"
+import foundation from "@/public/images/foundationPhoto.jpg"
 
 
 function Home() {
@@ -63,7 +63,7 @@ function Home() {
                 <div className="w-1/2 h-full mx-auto flex justify-center items-center flex-col">
                     <div className="w-full h-full flex justify-between items-center">
                         <div className="w-1/2 h-48 flex justify-center items-center">
-                            <Image src={artical} alt="Artical Image" placeholder="blur" quality={100} className="w-80 h-44 rounded-xl"/>
+                            <Image src={foundation} alt="Foundation Image" placeholder="blur" quality={100} className="w-80 h-44 rounded-xl"/>
                         </div>
                         <div className="w-1/2 h-48 text-black flex justify-center items-center flex-col gap-2">
                             <h1>The Araib Events</h1>

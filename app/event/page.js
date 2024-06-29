@@ -6,41 +6,48 @@ import leader from "@/public/images/leaderPhoto.jpg";
 import religious from "@/public/images/religiousPhoto.jpg";
 import art from "@/public/images/artPhoto.jpg";
 import business from "@/public/images/businessPhoto.jpg";
+import Link from "next/link";
 
 const eventsData = [
     {
         id: 1,
         img: wedding,
-        title: "Arabic Wedding",
+        pageName: "weddingEventPage",
+        title: "Arabic Wedding Events",
         message: "More Details...",
     },
     {
         id: 2,
         img: foundation,
+        pageName: "foundationEventPage",
         title: "Foundation of Islamic life",
         message: "More Details...",
     },
     {
         id: 3,
         img: leader,
+        pageName: "leadersPage",
         title: "Islamic Top Leaders",
         message: "More Details...",
     },
     {
         id: 4,
         img: religious,
+        pageName: "religiousPage",
         title: "Arabic Religious Events",
         message: "More Details...",
     },
     {
         id: 5,
         img: art,
-        title: "Arabic art exhibitions",
+        pageName: "artPage",
+        title: "Arabic Art Exhibitions",
         message: "More Details...",
     },
     {
         id: 6,
         img: business,
+        pageName: "businessPage",
         title: "Arabic Business Events",
         message: "More Details...",
     },
@@ -94,7 +101,9 @@ function Event() {
                                 />
                                 <h1 className="mx-5 my-2">{event.title}</h1>
                                 <p className="mx-5 text-blue-500 hover:text-blue-300 cursor-pointer">
+                                  <Link href={`/event/${event.pageName}`}>
                                     {event.message}
+                                  </Link>
                                 </p>
                             </div>
                         ))}

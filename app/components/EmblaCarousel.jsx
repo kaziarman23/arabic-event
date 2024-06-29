@@ -11,6 +11,8 @@ import carouselThree from "@/public/images/carouselThree.jpg";
 import carouselFour from "@/public/images/carouselFour.jpg";
 import carouselFive from "@/public/images/carouselFive.jpg";
 
+
+
 function EmblaCarousel() {
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
         Autoplay({ delay: 4000 }),
@@ -31,7 +33,7 @@ function EmblaCarousel() {
                 ref={emblaRef}
             >
                 <div className="embla__container h-full">
-                    <div className="embla__slide flex justify-center items-center">
+                    <div className="embla__slide flex justify-center items-center object-cover">
                         <Image
                             src={carouselOne}
                             alt="carousel picture one"
@@ -39,7 +41,7 @@ function EmblaCarousel() {
                             placeholder="blur"
                         />
                     </div>
-                    <div className="embla__slide flex justify-center items-center">
+                    <div className="embla__slide flex justify-center items-center object-cover">
                         <Image
                             src={carouselTwo}
                             alt="carousel picture two"
@@ -47,7 +49,7 @@ function EmblaCarousel() {
                             placeholder="blur"
                         />
                     </div>
-                    <div className="embla__slide flex justify-center items-center">
+                    <div className="embla__slide flex justify-center items-center object-cover">
                         <Image
                             src={carouselThree}
                             alt="carousel picture three"
@@ -55,7 +57,7 @@ function EmblaCarousel() {
                             placeholder="blur"
                         />
                     </div>
-                    <div className="embla__slide flex justify-center items-center">
+                    <div className="embla__slide flex justify-center items-center object-cover">
                         <Image
                             src={carouselFour}
                             alt="carousel picture four"
@@ -69,6 +71,7 @@ function EmblaCarousel() {
                             alt="carousel picture five"
                             quality={100}
                             placeholder="blur"
+                            className="object-cover"
                         />
                     </div>
                 </div>
