@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
                             <Link href={"/"}>Home</Link>
                         </li>
                         <li className="p-5  hover:text-green-500">
-                            <Link href={"/event"}>Event</Link>
+                            <Link href={"/event"}>Events</Link>
                         </li>
                         <li className="p-5  hover:text-green-500">
                             <Link href={"/aboutUs"}>About Us</Link>
