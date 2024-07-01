@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
+        <html lang="en" className="scroll-smooth">
             <body className={inter.className}>
                 <nav className="w-full h-15 bg-black flex justify-center items-center sticky top-0 z-50">
                     <ul className="flex justify-center items-center">

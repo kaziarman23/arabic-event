@@ -58,7 +58,7 @@ function weddingEventPage() {
                     </p>
                 </div>
                 <div className="my-10">
-                    <h1>There are 4 steps of Arabic wedding Events:</h1>
+                    <h1 className="hover:text-green-500">There are 4 steps of Arabic wedding Events:</h1>
                     <ol className="flex gap-3 flex-col mt-3">
                         <li className="hover:text-blue-600">
                             <Link href="#Mahr">step 1. Magsaba</Link>

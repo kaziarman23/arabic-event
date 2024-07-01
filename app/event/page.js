@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import wedding from "@/public/images/WeddingPhotoThree.jpg";
 import foundation from "@/public/images/foundationPhoto.jpg";
-import leader from "@/public/images/leaderPhoto.jpg";
+import commander from "@/public/images/commanderPhoto.jpg";
 import religious from "@/public/images/religiousEvent.jpg";
 import art from "@/public/images/artPhoto.jpg";
 import business from "@/public/images/businessPhoto.jpg";
@@ -25,7 +25,7 @@ const eventsData = [
     },
     {
         id: 3,
-        img: leader,
+        img: commander,
         pageName: "leadersPage",
         title: "Islamic Top Leaders",
         message: "More Details...",
