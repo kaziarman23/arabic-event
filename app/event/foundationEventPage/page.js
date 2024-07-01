@@ -76,7 +76,7 @@ function FoundationEventPage() {
                             placeholder="blur"
                             className="w-3/5 h-96"
                         />
-                        <h1>Shahada (Declaration of Faith)</h1>
+                        <h1 className="hover:text-green-500">Shahada (Declaration of Faith)</h1>
                         <h2 className="hover:text-red-600">
                             This is the central belief of Islam, expressed in
                             the phrase There is no god but Allah(God) and
@@ -91,7 +91,7 @@ function FoundationEventPage() {
                         className="flex justify-center items-center gap-3 flex-col my-5"
                     >
                         <Image src={carouselTwo} alt="Prayer" placeholder="blur" className="w-3/5 h-96"/>
-                        <h1>Salah (Prayer)</h1>
+                        <h1 className="hover:text-green-500">Salah (Prayer)</h1>
                         <h2 className="hover:text-red-600">
                             Muslims perform ritual prayers five times a day
                             facing the Kaaba in Mecca. These prayers serve as a
@@ -105,7 +105,7 @@ function FoundationEventPage() {
                         className="flex justify-center items-center gap-3 flex-col my-5"
                     >
                         <Image src={carouselThree} alt="Fasting" placeholder="blur" className="w-3/5 h-96"/>
-                        <h1>Sawm (Fasting)</h1>
+                        <h1 className="hover:text-green-500">Sawm (Fasting)</h1>
                         <h2 className="hover:text-red-600">
                             During the holy month of Ramadan, Muslims abstain
                             from food, drink, and other indulgences from dawn to
@@ -121,7 +121,7 @@ function FoundationEventPage() {
                         className="flex justify-center items-center gap-3 flex-col my-5"
                     >
                         <Image src={carouselFour} alt="Pilgrimage" placeholder="blur" className="w-3/5 h-96"/>
-                        <h1>Hajj (Pilgrimage)</h1>
+                        <h1 className="hover:text-green-500">Hajj (Pilgrimage)</h1>
                         <h2 className="hover:text-red-600">
                             {" "}
                             If they are able-bodied and can afford it, Muslims
@@ -139,7 +139,7 @@ function FoundationEventPage() {
                         className="flex justify-center items-center gap-3 flex-col my-5"
                     >
                         <Image src={carouselFive} alt="Almsgiving" placeholder="blur" className="w-3/5 h-96"/>
-                        <h1>Zakat (Almsgiving)</h1>
+                        <h1 className="hover:text-green-500">Zakat (Almsgiving)</h1>
                         <h2 className="hover:text-red-600">
                             This is the act of giving a specific portion of
                             one&#39;s wealth to the poor and needy. It&#39;s a

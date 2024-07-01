@@ -3,7 +3,7 @@ import React from "react";
 import wedding from "@/public/images/WeddingPhotoThree.jpg";
 import foundation from "@/public/images/foundationPhoto.jpg";
 import leader from "@/public/images/leaderPhoto.jpg";
-import religious from "@/public/images/religiousPhoto.jpg";
+import religious from "@/public/images/religiousEvent.jpg";
 import art from "@/public/images/artPhoto.jpg";
 import business from "@/public/images/businessPhoto.jpg";
 import Link from "next/link";
