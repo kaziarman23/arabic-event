@@ -13,7 +13,7 @@ function FoundationEventPage() {
             <div className="w-full h-auto">
                 <div className="w-full h-28 flex justify-center items-center gap-3 flex-col">
                     <h1 className="text-xl">Foundation of Islamic life</h1>
-                    <p>Drive into the peace</p>
+                    <p>Guiding the Path to Peace</p>
                 </div>
 
                 <div className="w-2/3 h-auto mx-auto my-5 flex justify-center items-center gap-2 flex-col">
