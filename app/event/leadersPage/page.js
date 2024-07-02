@@ -1,8 +1,6 @@
-import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import leadersData from "@/lib/leadersData";
-
 function LeadersPage() {
     return (
         <>
@@ -96,8 +94,10 @@ function LeadersPage() {
                                     className="mt-3 hover:text-blue-500"
                                     title="Click it for more details"
                                 >
-                                    <Link href={`/leadersPage/${data.id}`}>
-                                        {data.id}st. {data.name}
+                                    <Link
+                                        href={`/event/leadersPage/${data.short_name}`}
+                                    >
+                                        {data.id}. {data.name}
                                     </Link>
                                 </li>
                             ))}
