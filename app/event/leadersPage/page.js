@@ -1,7 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import leadersData from "@/lib/leadersData";
+
 function LeadersPage() {
+
+    const datas = leadersData.leaders
     return (
         <>
             <div className="w-full h-auto">
@@ -88,14 +91,14 @@ function LeadersPage() {
                             (For more details click the names)
                         </h3>
                         <ol className="flex flex-col gap-3">
-                            {leadersData.map((data) => (
+                            {datas.map((data) => (
                                 <li
                                     key={data.id}
                                     className="mt-3 hover:text-blue-500"
                                     title="Click it for more details"
                                 >
                                     <Link
-                                        href={`/event/leadersPage/${data.short_name}`}
+                                        href={`/event/leadersPage/${data.id}`}
                                     >
                                         {data.id}. {data.name}
                                     </Link>
