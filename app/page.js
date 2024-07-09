@@ -7,10 +7,10 @@ import MainSection from "./components/homePageComponents/mainSection.jsx";
 function Home() {
   return (
     <>
-      <div className="w-full h-10 text-center text-[40px] my-20">
+      <div className="w-full h-14 text-center my-20 text-5xl max-sm:text-4xl max-md:text-4xl">
         <Header />
       </div>
-      <div className=" w-1/2 h-[420px] mx-auto my-10 gap-5 flex justify-center items-center">
+      <div className="w-1/2 h-auto mx-auto my-10 gap-5 flex justify-center items-center max-sm:w-4/5 max-md:w-4/5">
         <HomePageCards />
       </div>
 
@@ -18,7 +18,7 @@ function Home() {
         <EmblaCarousel />
       </div>
 
-      <main className="w-full h-96 my-10 bg-gray-900">
+      <main className="w-full h-auto my-10 bg-gray-900">
         <MainSection />
       </main>
     </>

@@ -8,8 +8,8 @@ import foundation from "@/public/images/foundationPhoto.jpg";
 function mainSection() {
   return (
     <>
-      <div className="w-1/2 h-full mx-auto flex justify-center items-center flex-col">
-        <div className="w-full h-full flex justify-between items-center">
+      <div className="w-1/2 h-auto mx-auto flex justify-center items-center flex-col max-sm:w-4/5 max-md:w-4/5">
+        <div className="w-full h-auto flex justify-between items-center">
           <motion.div
             initial={{
               opacity: 0,
