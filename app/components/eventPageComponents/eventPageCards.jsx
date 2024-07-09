@@ -9,7 +9,7 @@ import art from "@/public/images/artPhoto.jpg";
 import business from "@/public/images/businessPhoto.jpg";
 import Link from "next/link";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
 
 const eventsData = [
   {
@@ -70,11 +70,16 @@ function eventPageCards() {
           },
         }}
         initial="hidden"
-        animate="show"
+        whileInView="show"
+        viewport={{ once: true }}
         className="w-full h-auto grid grid-rows-2 grid-cols-3 gap-2 place-items-center overflow-hidden"
       >
         {eventsData.map((event) => (
           <motion.div
+            transition={{
+              duration: 4,
+              ease: "linear",
+            }}
             variants={{
               hidden: { opacity: 0 },
               show: { opacity: 1 },
