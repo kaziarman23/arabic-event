@@ -9,7 +9,7 @@ import art from "@/public/images/artPhoto.jpg";
 import business from "@/public/images/businessPhoto.jpg";
 import Link from "next/link";
 import Image from "next/image";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const eventsData = [
   {

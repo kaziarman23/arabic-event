@@ -4,8 +4,20 @@ import EventPageCards from "../components/eventPageComponents/eventPageCards";
 function Event() {
   return (
     <>
+      <div className="bg-gray-900 w-full h-auto">
+        <div className="w-full h-24  flex justify-center items-center text-2xl">
+          <h1 className="hover:text-green-500">
+            Explore Events with
+            <span className="text-yellow-700"> The Arabic Events</span>
+          </h1>
+        </div>
+        <div className="w-2/3 h-auto mx-auto">
+          <EventPageCards />
+        </div>
+      </div>
+
       <div className="w-full h-80 text-justify flex justify-center items-center gap-2 flex-col mx-auto mt-16 mb-10">
-        <h1>The Araib Events</h1>
+        <h1 className="text-2xl">The Araib Events</h1>
         <h4 className="ml-10 mr-10 hover:text-green-500">
           Discover the magic of Arabic events with The Araib Events, your
           premier online destination for captivating and culturally rich event
@@ -23,17 +35,6 @@ function Event() {
           Araib Events and let us help you create memories that will last a
           lifetime.
         </h4>
-      </div>
-      <div className="wrapper bg-gray-900 w-full h-auto">
-        <div className="w-full h-24 my-5 flex justify-center items-center text-2xl">
-          <h1 className="hover:text-green-500">
-            Explore Events with
-            <span className="text-yellow-700">The Arabic Events</span>
-          </h1>
-        </div>
-        <div className="w-2/3 h-auto mx-auto">
-          <EventPageCards />
-        </div>
       </div>
     </>
   );
