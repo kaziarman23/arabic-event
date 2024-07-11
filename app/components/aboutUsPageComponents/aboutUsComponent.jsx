@@ -6,7 +6,7 @@ import React from "react";
 function aboutUsComponent() {
   return (
     <>
-      <div className="w-2/3 h-60 mx-auto my-10">
+      <div className="w-2/3 h-auto mx-auto my-10">
         <motion.div
           initial={{
             opacity: 0,
@@ -38,7 +38,7 @@ function aboutUsComponent() {
             duration: 2,
             ease: easeIn,
           }}
-          className="w-4/5 h-44 my-6 mx-auto text-justify"
+          className="w-4/5 h-[176] my-6 mx-auto text-justify"
         >
           <p className="hover:text-green-500">
             Welcome to Arabic Events, your premier online destination for

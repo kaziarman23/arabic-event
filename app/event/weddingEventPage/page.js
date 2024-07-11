@@ -5,7 +5,7 @@ import WeddingComponent from "@/app/components/eventPageComponents/weddingCompon
 function weddingEventPage() {
   return (
     <>
-      <div className="w-full h-20 gap-2 flex flex-col justify-center items-center">
+      <div className="w-full h-20 text-justify gap-2 flex flex-col justify-center items-center">
         <h1 className="text-xl">Arabic Wedding Event</h1>
         <p>Waiting For A Good Life</p>
       </div>

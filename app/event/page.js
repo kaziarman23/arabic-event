@@ -6,17 +6,17 @@ function Event() {
     <>
       <div className="bg-gray-900 w-full h-auto">
         <div className="w-full h-24  flex justify-center items-center text-2xl">
-          <h1 className="hover:text-green-500">
+          <h1 className="hover:text-green-500 text-sm sm:text-xl lg:text-2xl">
             Explore Events with
             <span className="text-yellow-700"> The Arabic Events</span>
           </h1>
         </div>
-        <div className="w-2/3 h-auto mx-auto">
+        <div className="w-4/5 h-[1960px] mx-auto sm:h-[967px] md:h-[976px] lg:h-[648px]">
           <EventPageCards />
         </div>
       </div>
 
-      <div className="w-full h-80 text-justify flex justify-center items-center gap-2 flex-col mx-auto mt-16 mb-10">
+      <div className="w-full h-[568px] text-justify flex justify-center items-center gap-2 flex-col mx-auto mt-16 mb-10 sm:h-[500px]">
         <h1 className="text-2xl">The Araib Events</h1>
         <h4 className="ml-10 mr-10 hover:text-green-500">
           Discover the magic of Arabic events with The Araib Events, your

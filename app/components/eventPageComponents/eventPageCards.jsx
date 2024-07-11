@@ -72,7 +72,7 @@ function eventPageCards() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="w-full h-auto grid grid-rows-2 grid-cols-3 gap-2 place-items-center overflow-hidden"
+        className="w-full h-auto grid grid-rows-4 grid-cols-1 gap-2 place-items-center overflow-hidden sm:grid-rows-3 sm:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3"
       >
         {eventsData.map((event) => (
           <motion.div

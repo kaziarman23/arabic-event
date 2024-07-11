@@ -5,7 +5,7 @@ import BusinessComponent from "@/app/components/eventPageComponents/businessComp
 function BusinessEventPage() {
   return (
     <>
-      <div className="w-full h-auto">
+      <div className="w-full h-auto text-justify">
         <div className="w-full h-28 flex justify-center items-center gap-3 flex-col">
           <h1 className="text-xl">Arabic Buisness Event</h1>
           <p>

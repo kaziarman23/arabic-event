@@ -5,7 +5,7 @@ import ArtComponent from "@/app/components/eventPageComponents/artComponent";
 function ArtEventPage() {
   return (
     <>
-      <div className="w-full h-auto">
+      <div className="w-full h-auto text-justify">
         <div className="w-full h-28 flex justify-center items-center gap-3 flex-col">
           <h1 className="text-xl">Arabic Art Exhibitions Event</h1>
           <p>A Journey Through Arabic Art Exhibitions</p>

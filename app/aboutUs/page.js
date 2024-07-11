@@ -5,7 +5,7 @@ import AboutUsComponent from "../components/aboutUsPageComponents/aboutUsCompone
 function AboutUs() {
   return (
     <>
-      <div>
+      <div className="h-[550px] sm:h-[400px] lg:h-[340px]">
         <AboutUsComponent />
       </div>
     </>

@@ -12,7 +12,7 @@ function page({ params }) {
 
   return (
     <>
-      <div className="w-2/3 h-auto mx-auto my-20 flex justify-center items-center flex-col">
+      <div className="w-2/3 h-auto text-justify mx-auto my-20 flex justify-center items-center flex-col">
         <h1 className="my-10 text-2xl hover:text-red-600">
           This is about {data.name}
         </h1>

@@ -63,7 +63,7 @@ function homePageCards() {
             alt="this is image one"
             quality={100}
             placeholder="blur"
-            className="p-5 overflow-hidden rounded-xl hover:shadow-md hover:shadow-black sm:mt-5 md:mt-6"
+            className="p-5 overflow-hidden rounded-xl hover:shadow-md hover:shadow-black"
           />
         {/* </div> */}
         <div className="text-center flex justify-center items-center gap-5 flex-col mx-2 my-3">

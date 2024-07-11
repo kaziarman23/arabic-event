@@ -7,7 +7,7 @@ function LeadersPage() {
     const datas = leadersData.leaders
     return (
         <>
-            <div className="w-full h-auto">
+            <div className="w-full h-auto text-justify">
                 <div className="w-full h-28 flex justify-center items-center gap-3 flex-col">
                     <h1 className="text-xl">Arabic Leaders Event</h1>
                     <p>A Legacy of Excellence</p>
