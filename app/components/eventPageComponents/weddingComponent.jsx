@@ -1,10 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
 import React from "react";
-import weddingPhotoTwo from "@/public/images/weddingPhotoTwo.jpg";
-import weddingPhotoThree from "@/public/images/weddingPhotoThree.jpg";
-import weddingPhotoFour from "@/public/images/weddingPhotoFour.jpg";
-import weddingPhoto from "@/public/images/weddingPhoto.jpg";
+import weddingTwo from "@/public/images/weddingTwo.jpg";
+import weddingThree from "@/public/images/weddingThree.jpg";
+import weddingFour from "@/public/images/weddingFour.jpg";
+import weddingOne from "@/public/images/weddingOne.jpg";
 import Image from "next/image";
 
 function weddingComponent() {
@@ -19,7 +19,7 @@ function weddingComponent() {
         className="flex justify-center items-center flex-col gap-5 my-5"
       >
         <Image
-          src={weddingPhoto}
+          src={weddingOne}
           alt="Wedding Photo for Mahr"
           placeholder="blur"
           className="rounded-xl"
@@ -53,7 +53,7 @@ function weddingComponent() {
         className="flex justify-center items-center flex-col gap-5 my-5"
       >
         <Image
-          src={weddingPhotoTwo}
+          src={weddingTwo}
           alt="Wedding Photo for Fatiha"
           placeholder="blur"
           className="rounded-xl"
@@ -86,7 +86,7 @@ function weddingComponent() {
         className="flex justify-center items-center flex-col gap-5 my-5"
       >
         <Image
-          src={weddingPhotoThree}
+          src={weddingThree}
           alt="Wedding Photo for Nikah"
           placeholder="blur"
           className="rounded-xl"
@@ -120,7 +120,7 @@ function weddingComponent() {
         className="flex justify-center items-center flex-col gap-5 my-5"
       >
         <Image
-          src={weddingPhotoFour}
+          src={weddingFour}
           alt="Wedding Photo for Feast"
           placeholder="blur"
           className="rounded-xl"

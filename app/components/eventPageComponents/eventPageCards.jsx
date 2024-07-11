@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import wedding from "@/public/images/weddingPhotoThree.jpg";
+import wedding from "@/public/images/weddingThree.jpg";
 import foundation from "@/public/images/foundationPhoto.jpg";
 import commander from "@/public/images/commanderPhoto.jpg";
 import religious from "@/public/images/religiousEvent.jpg";
@@ -87,7 +87,12 @@ function eventPageCards() {
             key={event.id}
             className="w-60 h-60 bg-black text-white rounded-xl border-red-600 border my-10 hover:drop-shadow-xl hover:shadow-yellow-500"
           >
-            <Image src={event.img} alt={event.title} className="p-2" />
+            <Image
+              src={event.img}
+              alt={event.title}
+              placeholder="blur"
+              className="p-2"
+            />
             <h1 className="mx-5 my-2">{event.title}</h1>
             <p className="mx-5 text-blue-500 hover:text-blue-300 cursor-pointer">
               <Link href={`/event/${event.pageName}`}>{event.message}</Link>
