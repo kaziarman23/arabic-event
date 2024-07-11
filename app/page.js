@@ -7,7 +7,7 @@ import MainSection from "./components/homePageComponents/mainSection.jsx";
 function Home() {
   return (
     <>
-      <div className="w-full h-14 text-center my-20 text-2xl sm:text-4xl md:text-5xl lg:text-6xl">
+      <div className="w-full h-14 text-white text-center my-20 text-2xl sm:text-4xl md:text-5xl lg:text-6xl">
         <Header />
       </div>
       <div className="w-4/5 h-auto mx-auto my-10 gap-5 flex justify-center items-center sm:w-4/5 md:w-4/5 lg:w-1/2 ">

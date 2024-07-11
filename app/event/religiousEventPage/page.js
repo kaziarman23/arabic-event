@@ -5,13 +5,13 @@ import ReligiousComponent from "@/app/components/eventPageComponents/religiousCo
 function ReligiousEventPage() {
   return (
     <>
-      <div className="w-full h-auto text-justify">
+      <div className="w-full h-auto text-white text-justify">
         <div className="w-full h-28 flex justify-center items-center gap-3 flex-col">
           <h1 className="text-xl">The Religious Event</h1>
           <p>Under the Light of Qibla</p>
         </div>
 
-        <div className="w-2/3 h-auto mx-auto my-5 flex justify-center items-center gap-2 flex-col">
+        <div className="w-2/3 h-auto  mx-auto my-5 flex justify-center items-center gap-2 flex-col">
           <h1 className="hover:text-green-500">
             Islam, major world religion promulgated by the Prophet Muhammad in
             Arabia in the 7th century CE. The Arabic term islam, literally

@@ -12,7 +12,7 @@ function page({ params }) {
 
   return (
     <>
-      <div className="w-2/3 h-auto text-justify mx-auto my-20 flex justify-center items-center flex-col">
+      <div className="w-2/3 h-auto text-white text-justify mx-auto my-20 flex justify-center items-center flex-col">
         <h1 className="my-10 text-2xl hover:text-red-600">
           This is about {data.name}
         </h1>
@@ -43,7 +43,7 @@ function page({ params }) {
         </div>
       </div>
       <hr />
-      <div className="flex justify-center items-center flex-col gap-5 my-10">
+      <div className="flex justify-center items-center text-white flex-col gap-5 my-10">
         <h1>Explore More things with us on the Event.</h1>
         <div className="flex justify-center items-center gap-3">
           <button className="p-2  bg-blue-500 text-white cursor-pointer rounded-xl hover:text-black hover:bg-red-600">

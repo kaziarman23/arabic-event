@@ -3,7 +3,7 @@ import SubmitBtn from "@/app/components/SubmitBtn.jsx";
 
 function ContactUs() {
   return (
-    <div className="bg-black w-2/3 h-auto mx-auto my-10 flex justify-center items-center gap-3 flex-col">
+    <div className="bg-black w-2/3 h-auto text-white mx-auto my-10 flex justify-center items-center gap-3 flex-col">
       <h1 className="text-2xl my-2">Contact Us</h1>
       <p className="text-yellow-500">This is a demo Form</p>
       <form className="my-10 ">

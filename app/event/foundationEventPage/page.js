@@ -5,7 +5,7 @@ import FoundationComponent from "@/app/components/eventPageComponents/foundation
 function FoundationEventPage() {
   return (
     <>
-      <div className="w-full h-auto text-justify">
+      <div className="w-full h-auto text-white text-justify">
         <div className="w-full h-28 flex justify-center items-center gap-3 flex-col">
           <h1 className="text-xl">Foundation of Islamic life</h1>
           <p>Guiding the Path to Peace</p>

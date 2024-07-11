@@ -5,11 +5,11 @@ import WeddingComponent from "@/app/components/eventPageComponents/weddingCompon
 function weddingEventPage() {
   return (
     <>
-      <div className="w-full h-20 text-justify gap-2 flex flex-col justify-center items-center">
+      <div className="w-full h-20 text-white text-justify gap-2 flex flex-col justify-center items-center">
         <h1 className="text-xl">Arabic Wedding Event</h1>
         <p>Waiting For A Good Life</p>
       </div>
-      <div className="w-2/3 h-auto mx-auto my-10 text-justify">
+      <div className="w-2/3 h-auto mx-auto my-10 text-white text-justify">
         <div className="my-10">
           <h1 className="hover:text-red-600">Hadis Narrated Aisha(R.A.):</h1>
           <br />

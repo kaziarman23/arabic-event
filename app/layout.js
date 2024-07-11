@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
         <nav className="w-full h-15 bg-black flex justify-center items-center sticky top-0 z-50">
-          <ul className="flex justify-center items-center">
+          <ul className="text-white flex justify-center items-center">
             <li className="p-5 hover:text-green-500">
               <Link href={"/"}>Home</Link>
             </li>
