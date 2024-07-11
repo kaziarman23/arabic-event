@@ -8,7 +8,7 @@ import foundation from "@/public/images/foundationPhoto.jpg";
 function mainSection() {
   return (
     <>
-      <div className="w-1/2 h-auto mx-auto flex justify-center items-center flex-col max-sm:w-4/5 max-md:w-4/5">
+      <div className="w-full h-[456px] mx-auto flex justify-center items-center flex-col sm:w-4/5 md:w-4/5">
         <div className="w-full h-auto flex justify-between items-center">
           <motion.div
             initial={{
@@ -24,7 +24,7 @@ function mainSection() {
               ease: "easeIn",
             }}
             viewport={{ once: true }}
-            className="w-1/2 h-48 flex justify-center items-center"
+            className="w-1/2 h-48 mx-2 flex justify-center items-center"
           >
             <Image
               src={foundation}
@@ -72,7 +72,7 @@ function mainSection() {
           viewport={{ once: true }}
           className="w-full h-full text-white flex justify-start items-center"
         >
-          <h1>
+          <h1 className="text-justify mx-2">
             Welcome to our event management website, where we simplify the
             process of organizing and promoting your events. Our platform offers
             a range of tools to help you manage guest lists, ticketing, and
