@@ -1,5 +1,5 @@
 import React from "react";
-import EmblaCarousel from "@/app/components/emblaCarousel";
+import EmblaCarousel from "@/app/components/EmblaCarousel.jsx";
 import Header from "./components/homePageComponents/header.jsx";
 import HomePageCards from "./components/homePageComponents/homePageCards.jsx";
 import MainSection from "./components/homePageComponents/mainSection.jsx";

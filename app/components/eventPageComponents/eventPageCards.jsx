@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import wedding from "@/public/images/WeddingPhotoThree.jpg";
+import wedding from "@/public/images/weddingPhotoThree.jpg";
 import foundation from "@/public/images/foundationPhoto.jpg";
 import commander from "@/public/images/commanderPhoto.jpg";
 import religious from "@/public/images/religiousEvent.jpg";
